@@ -1,0 +1,71 @@
+@import "../../app.scss";
+.navbar{
+    height: 100px;
+    background-color: #0c0c1d;
+
+
+    .wrapper{
+        max-width: 1366px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;        
+        height: 100%;
+        padding: 60px;
+        background-color: #0c0c1d;
+
+        @include mobile {
+            justify-content: flex-end;
+            padding: 20px;
+        }
+
+
+        span img{
+            height: 75px;
+            width: 75px;
+            padding-top:10px;
+            @include mobile {
+                display: none;
+            }
+        }
+
+        .social{
+            display: flex;
+            gap: 20px;
+        }
+
+
+
+        // button{
+        //     background-color: rebeccapurple;
+        //     border-radius: 4px;
+        // }
+                button {
+                    background-color: rebeccapurple;
+                    color: #3b82f6;
+                    border: none;
+                    border-radius: 6px;
+                    width: 100px;
+                    height: 25px;
+                    transition: .3s;
+
+                    @include mobile {
+                            display: none;
+                    }
+                }
+        
+                button:hover {
+                    background-color: #3b82f6;
+                    box-shadow: 0 0 0 5px #3b83f65f;
+                    color: #fff;
+                }
+                
+                
+
+        img{
+            width: 18px;
+            height: 18px;
+        }
+
+    }
+}

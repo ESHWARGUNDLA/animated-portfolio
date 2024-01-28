@@ -1,0 +1,134 @@
+@import "../../app.scss";
+
+.button {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 600px;
+}
+
+.box {
+    width: 35px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    transition: all .8s;
+    cursor: pointer;
+    position: relative;
+    background: rebeccapurple;
+    overflow: hidden;
+}
+
+.box:before {
+    content: ".";
+    position: absolute;
+    top: 0;
+    background: #0f0f0f;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(100%);
+    transition: transform .4s;
+}
+
+.box:nth-child(2)::before {
+    transform: translateY(-100%);
+    content: 'M';
+}
+
+.box:nth-child(3)::before {
+    content: 'E';
+}
+
+.box:nth-child(4)::before {
+    transform: translateY(-100%);
+    content: '😎';
+}
+
+.box:nth-child(5)::before {
+    content: '.';
+}
+
+.button:hover .box:before {
+    transform: translateY(0);
+}
+
+// button {
+//     background-color: rebeccapurple;
+//     color: #3b82f6;
+//     border: none;
+//     border-radius: 6px;
+//     width: 100px;
+//     height: 30px;
+//     transition: .3s;
+//     @include mobile {
+//         display: none;
+//     }
+// }
+// button:hover {
+//     background-color: #3b82f6;
+//     box-shadow: 0 0 0 5px #3b83f65f;
+//     color: #fff;
+// }
+
+
+span{
+    color: rebeccapurple;
+
+
+}
+hr{
+    width: 750px;
+
+}
+
+
+p{
+    text-align: center;
+    justify-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: justify;
+
+    @include mobile{
+        padding-left: 20px;
+
+    }
+}
+
+span img{
+    height: 200px;
+    width: 400px;
+}
+
+h2{
+    display: none;
+
+    @include mobile {
+            padding-left: 150px;
+            display: flex;
+    }
+
+}
+span button {
+    background-color: rebeccapurple;
+    color: #3b82f6;
+    border: none;
+    border-radius: 6px;
+    width: 100px;
+    height: 25px;
+    transition: .3s;
+    // @include mobile {
+    //     display: none;
+    // }
+}
+span button:hover {
+    background-color: #3b82f6;
+    box-shadow: 0 0 0 5px #3b83f65f;
+    color: #fff;
+}

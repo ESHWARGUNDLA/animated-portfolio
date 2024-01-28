@@ -1,0 +1,94 @@
+@import "../../app.scss";
+
+h2 {
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 12px;
+    color: rebeccapurple;
+    padding-top: 40px;
+
+    @include mobile {
+        font-size: 32px;
+
+    }
+
+}
+
+p {
+    font-size: 30px;
+    min-width: 600px;
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 30px;
+
+    @include mobile {
+        font-size: 16px;
+        padding-right: 210px;
+
+    }
+
+
+}
+
+hero {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    gap: 20px;
+    justify-content: center;
+
+
+    
+}
+
+skills {
+    width: 100%;
+    max-width: 500px;
+    border: 0.1px solid rebeccapurple;
+    box-shadow: rebeccapurple 0px 4px 24px;
+    border-radius: 16px;
+    padding: 18px 36px;
+    border-color:rebeccapurple;
+
+        @include mobile {
+            max-width: 400px;
+            padding: 10px 36px;
+        }
+}
+
+skilllist {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-bottom: 20px;
+
+}
+
+skilltitle {
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rebeccapurple;
+}
+
+skillitem {
+    font-size: 16px;
+    font-weight: 800;
+    color: rgb(240, 240, 244);
+    border-radius: 12px;
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    @include mobile {
+        font-size: 14px;
+        padding: 6px 12px;
+        }
+
+}
