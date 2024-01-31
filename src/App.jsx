@@ -1,7 +1,6 @@
 import "./app.scss"
 import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
-import Test from "./Test";
 import About from "./components/About/About";
 import Parallax from "./components/parallax/Parallax";
 import Skills from "./components/Skills/Skills"; 
@@ -31,8 +30,6 @@ const App = () => {
     <section id="Contact">
       <Contact/>
     </section>
-    {/* <Test/>
-    <Test/> */}
   </div>;
 };
 
