@@ -1,3 +1,4 @@
+import React from "react"
 import "./navbar.scss"
 import {motion} from "framer-motion"
 import Sidebar from "../sidebar/Sidebar"
@@ -16,9 +17,6 @@ const Navbar = () => {
                 {/* eshwar_45 */}
                 
                     <img src="logo.png" alt="image" />
-                
-                
-                
                 </motion.span>
                     <div className="social">
                     <button>

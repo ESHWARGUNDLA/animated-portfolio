@@ -1,6 +1,11 @@
 html{
    scroll-snap-type: y mandatory;
    scroll-behavior: smooth; 
+//     @mixin mobile{   
+//     scroll-snap-type: none;
+//     scroll-behavior: auto;
+
+// }
 }
 
 *{
@@ -20,6 +25,7 @@ a{
 section{
     height:100vh;
     scroll-snap-align: center;
+    overflow: hidden;
 }
 
 @mixin mobile {

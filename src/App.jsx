@@ -8,7 +8,8 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
 import Cursor from "./components/cursor/Cursor";
 const App = () => {
-  return <div>
+  return (
+  <div className="app">
     <Cursor/>
     <section id="Homepage">
       <Navbar/>
@@ -30,7 +31,8 @@ const App = () => {
     <section id="Contact">
       <Contact/>
     </section>
-  </div>;
+  </div>
+  );
 };
 
 export default App;

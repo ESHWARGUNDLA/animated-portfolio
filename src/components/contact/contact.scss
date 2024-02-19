@@ -1,105 +1,127 @@
 @import "../../app.scss";
 
-.contact{
+.contact {
     height: 100%;
     max-width: 1366px;
     margin: auto;
+    padding: 20px;
     display: flex;
     align-items: center;
     gap: 50px;
 
-    @include mobile{
+    @include mobile {
         width: 100%;
         padding: 10px;
         flex-direction: column;
+        gap: 0px;
     }
 
-    .textContainer{
-        flex:1;
+    .textContainer {
+        flex: 1;
         display: flex;
         flex-direction: column;
-        // padding-left: 100px;
-        // gap: 40px;
+        gap: 40px;
 
         @include mobile {
+            margin-top: 120px;
             gap: 20px;
             text-align: center;
             align-items: center;
-            margin-top: 70px;
         }
 
-        h3{
-            padding-right: 700px;
-            color: rebeccapurple;
-            line-height: 50px;
-
-        }
-                @include mobile {
-                    font-size: 36px;
-                }
-
-        h1{
+        h1 {
             font-size: 100px;
             line-height: 88px;
 
-            @include mobile{
-                font-size: 36px;
+            @include mobile {
+                font-size: 24px;
+                line-height: 50px;
+            }
+
+            // @include tablet {
+            //     font-size: 50px;
+            // }
+        }
+
+        h2 {
+            @include mobile {
+                margin-bottom: 5px;
             }
         }
-        span{
+
+        span {
             font-weight: 300;
-            color: white;
         }
-
     }
-    .formContainer{
-        flex:1;
-        position: relative;
 
-        @include mobile {
-            padding: 50px;
-            width: 100%;
-        }
-
-        .phoneSvg{
-            stroke: orange;
-            position: absolute;
-            margin: auto;
-            z-index: -1;
-            padding-right: 300px;
-            padding-top: 50px;
-        }
-        form{
+    .formContainer {
         display: flex;
         flex-direction: column;
-        gap: 20px;
-        padding-top: 100px;
+        position: relative;
+        flex: 1;
 
-        input,textarea{
-            padding: 20px;
-            background-color: transparent;
-            border: 1px solid white;
-            color: white;
-            border-radius: 5px;
-
-            @include mobile {
-                padding: 10px;
+        @include mobile {
+            .svgContainer {
+                width: 100%;
+                max-width: 200px;
+                margin: auto;
             }
         }
-        button{
-            padding: 20px;
-            border: none;
-            background-color: orange;
-            color: aliceblue;
-            cursor: pointer;
-            font-weight:500 ;
+
+        @include mobile {
+            width: 100%;
+            padding: 50px;
+        }
+
+        .phoneSvg {
+            position: absolute;
+            margin: auto;
+            stroke: orange;
+            z-index: -1;
+
+            // @include tablet {
+            //     svg {
+            //         width: 350px;
+            //     }
+            // }
 
             @include mobile {
-                padding: 10px;
+                svg {
+                    width: 200px;
+                    height: 250px;
+                }
+            }
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            input,
+            textarea {
+                padding: 20px;
+                background-color: transparent;
+                border: 1px solid white;
+                color: white;
+                border-radius: 5px;
+
+                @include mobile {
+                    padding: 10px;
+                }
             }
 
-        }
-    }
+            button {
+                padding: 20px;
+                border: none;
+                background-color: orange;
+                cursor: pointer;
+                font-weight: 500;
 
+                @include mobile {
+                    padding: 10px;
+                }
+            }
+        }
     }
 }

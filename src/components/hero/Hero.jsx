@@ -19,8 +19,8 @@ const textVariants={
         transition:{
            duration:2,
            repeat:Infinity
-        }
-    }
+        },
+    },
 };
 const sliderVariants={
     initial:{
@@ -31,7 +31,7 @@ const sliderVariants={
         transition:{
             repeat:Infinity,
             repeatType:"mirror",
-            duration:20,
+            duration:30,
         },
     },
 };

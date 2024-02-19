@@ -85,6 +85,11 @@ span{
 hr{
     width: 750px;
 
+        @include mobile {
+         width: 400px;
+    }
+
+
 }
 
 
@@ -96,7 +101,8 @@ p{
     text-align: justify;
 
     @include mobile{
-        padding-left: 20px;
+        padding-left: 10px;
+        font-size: 16px;
 
     }
 }
@@ -109,13 +115,13 @@ span img{
 h2{
     display: none;
 
-    @include mobile {
+        @include mobile {
             padding-left: 150px;
             display: flex;
     }
 
 }
-span button {
+p span button {
     background-color: rebeccapurple;
     color: #3b82f6;
     border: none;

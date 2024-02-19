@@ -9,6 +9,7 @@ const variants = {
         transtion:{
         type:"spring",
         stiffness:20,
+        // delay: 0.25,
         }
         },
     closed:{
