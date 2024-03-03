@@ -7,42 +7,42 @@ const items = [
         id:1,
         title:"Tasky Application",
         img:"taskyapp.png",
-        desc:"These is a Tasky Application.These a intermediate level project and builded using HTML,CSS,Bootstrap,Javascript.Here you can add tasks and simultaneously remove the tasks.You can add images,titles,heading and description of the tasks.",
+        desc:"Tasky Application: An intermediate-level project built using HTML, CSS, Bootstrap, and JavaScript. In this application, users can add tasks and simultaneously remove them. Additionally, users have the ability to include images, titles, headings, and descriptions for each task.",
         link:"https://eshwargundla-tasky-app.netlify.app/"
     },
     {
         id:2,
         title:"Lagunitas page",
         img:"beer.png",
-        desc:"These is a beer landing page of lagunitas website using HTML,CSS,JavaScript.There are special js libraries used in these those are locomotive and gsap",
+        desc:"These is a beer landing page of lagunitas website using HTML,CSS,JavaScript.There are special js libraries used in these those are Locomotive(This library adds smooth scrolling effects) and GSAP (GreenSock Animation Platform)",
         link:"https://eshwar-beer-landing-page.netlify.app/"
     },
     {
         id:3,
-        title:"Zomato Clone",
-        img:"zomatoapp.png",
-        desc:"These is a Zomato home page clone website using HTML and CSS. Flexbox and Grid is used to structure the page. Not every content is added, some similar content I have skipped and focused on the stucture of the home page for practise.",
-        link:"https://eshwargundla-zomato-clone.netlify.app/"
+        title:"LandingPage",
+        img:"LandingPage.png",
+        desc:"Landing Page with ReactJS, Tailwind CSS, and React Router 🚀.Here we have different sections like About,Contact,Github and User. React Routers helps in navigation, ensuring a smooth user experience. This enables users to navigate between different sections of your landing page seamlessly.",
+        link:"https://landing-page45.vercel.app/"
     },   
     {
         id:4,
         title:"Portfolio",
         img:"./portfolio.png",
-        desc:" These is a modern and customizable personal portfolio web template built using the popular React library, Sass and Framer Motion. It provides an easy way for developers, designers, and creatives to showcase their work and skills in a professiona and visually appealing way."
-        // link:""
+        desc:"Modern Personal Portfolio Web Template: 🌟🚀 built using the popular React library, Sass and Framer Motion. It provides an easy way for developers, designers, and creatives to showcase their work and skills in a professional and visually appealing way.",
+        link:"https://my-portfolio-sigma-ten-49.vercel.app/"
     },
     {
         id:5,
         title:"Book Management",
         img:"Book Management.png",
-        desc:"These is Library Book Management project using Nodejs,Expressjs,Javascript.To check severs I have used postman-api.You can access users,books etc"
+        desc:"These is Library Book Management project using Nodejs,Expressjs,Javascript.To check severs communication I have used postman-api.You can access users,books and these project allows user management. You can create, update, and delete user profiles."
         // link:""
     },
     {
         id:6,
-        title:"Netflix Clone",
-        img:"./netflix.png",
-        desc:"These is a basic Netflix Clone using HTML,CSS.These clones are beginner level projects for any web developers.The project aims to recreate the visual design and layout of the Netflix home page, providing a starting point for creating similar interfaces or learning web development techniques.",
+        title:"Currency-Converter",
+        img:"curr-conv.png",
+        desc:"These is a currency-converter using reactjs.These implement the logic to fetch exchange rates from an API, such as ExchangeRate-API, and calculate the converted amount based on the user's input.Here I have used custom hooks.React state to manage the input amount, selected currencies, and conversion result.",
         link:"https://eshwar-netflix.netlify.app/"
     },
     
